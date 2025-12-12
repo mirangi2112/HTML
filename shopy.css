@@ -59,25 +59,117 @@ ul li a{
     display: flex;
     margin-left: 80px;
 }
-.left{
+.co{
+    display: flex;
+}
+
+.box{
+    height: 300px;
+    width: 600px;
     background-image: url("https://nurimetin.github.io/eliteshoppy.github.io/images/bottom1.jpg");
-    margin-left: 120px;
-    margin-top: 50px;
+    background-size: 100% 100%;
+    margin: 100px auto;
+    padding: 20px;
+    transition: 1s;
+    margin-right: 40px;
+}
+.border{
+    border: 5px solid white;
+    opacity: 0;
+    transition: 1s;
+    height: 230px;
+    width: 510px;
+}
+
+.box:hover .border{
+          opacity: 1;
+          transform: translateX(20px);
+}
+.box:hover{
+    background-position: 20px;
+}
+
+
+.box1{
     height: 300px;
-    padding: 100px;
+    width: 600px;
+    background-image: url("https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom2.jpg");
+    background-size: 100% 100%;
+    margin: 100px auto;
+    padding: 20px;
+    transition: 1s;
+}
+.border1{
+    border: 5px solid white;
+    opacity: 0;
+    transition: 1s;
+    height: 230px;
+    width: 510px;
+}
+.box1:hover .border1{
+          opacity: 1;
+          transform: translateX(20px);
+}
+
+.box1:hover{
+    background-position: 20px;
+}
+
+
+
+
+
+
+
+.g{
+    display: flex;
+}
+
+
+
+
+.green
+{
+   background-color: rgb(39, 228, 165)  ;
+   
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    width: 100%;
+    
+}
+
+.g .green .container{
+    background-color: azure;
+    margin-top: 60px;
+    
+   
+}
+
+
+
+
+.bold{
+       margin-left: 600px;
+       margin-top: 90px;
+       font-size: 40px;
+       font-family: verdana;
+
+
+}
+
+
+.im2{
+    display: flex;
+}
+
+.girl{
+    background-image: url("https://nurimetin.github.io/eliteshoppy.github.io/images/bb1.jpg");
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 600px;
+    padding: 200px;
 
     color: white;
     text-align: center;
 }
-.right{
-     background-image: url("https://nurimetin.github.io/eliteshoppy.github.io/images/bottom2.jpg");
-    margin-left: 30px;
-    margin-top: 50px;
-    height: 300px;
-    padding: 100px;
-
-    color: white;
-    text-align: center;
-
-}
-
