@@ -369,6 +369,40 @@ ul li a{
 
 
 
+.cols:hover .s1
+{ 
+    transform: rotateY(180deg);
+}
+
+.s1{
+    transition: 1s;
+}
+
+.cols{
+    position: relative;
+}
+
+.p
+{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: white;
+    left: 0;
+    padding: 5px;
+    opacity: 0;
+    transition: 1s;
+    z-index: 1;
+}
+
+.cols:hover .p{
+    margin-top: 250px;
+    opacity: 1;
+    transition: 1s;
+}
+
+
+
  .bg{
     background-image: url("https://nurimetin.github.io/eliteshoppy.github.io/images/banner3.jpg");
     height: 450px;
